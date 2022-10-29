@@ -1,0 +1,13 @@
+.cardsarea {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #212529;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px black;
+}

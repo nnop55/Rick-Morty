@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #212529;
+    border-radius: 10px;
+}

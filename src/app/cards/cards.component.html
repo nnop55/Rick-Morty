@@ -1,0 +1,8 @@
+<div class="card" style="width: 15rem;">
+    <img class="card-img-top" [src]="currentCard.image" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{currentCard.name}}</h5>
+        <p class="card-text">{{currentCard.gender}}</p>
+        <a routerLink="/character/?name={{currentCard.name}}" class="btn btn-dark">Show Alter Egos</a>
+    </div>
+</div>

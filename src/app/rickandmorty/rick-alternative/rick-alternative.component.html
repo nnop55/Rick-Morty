@@ -1,0 +1,10 @@
+<div class="cards">
+    <div class="card" style="width: 18rem;" *ngFor="let item of currentPerson">
+        <img class="card-img-top" [src]="item.image" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Origin : {{item.origin.name}}</h5>
+            <p class="card-text">Gender : {{item.gender}}</p>
+            <p class="card-text">Status : {{item.status}}</p>
+        </div>
+    </div>
+</div>
